@@ -16,9 +16,17 @@ chatbot logs using a multimodal transformer model (text + behavioral features).
   - **Unimodal text model**: XLM-RoBERTa with mean-pooled CLS embeddings.
   - **Multimodal model**: XLM-RoBERTa text encoder + numeric behavior branch.
 
+<img width="4493" height="2730" alt="그림1" src="https://github.com/user-attachments/assets/45b3ffa9-a6ef-4806-9379-d100300e491b" />
+
+<img width="4327" height="3653" alt="Architecture" src="https://github.com/user-attachments/assets/5d4e0986-33e0-4d90-9bb4-62fb112e8b94" />
+
+<img width="3227" height="2845" alt="Text Chunking and Multilingual Encoding" src="https://github.com/user-attachments/assets/9d2062b5-453b-4710-909c-fc854b949220" />
+
 - **Main finding (short)**  
   The multimodal model consistently reduces mean absolute error (MAE) compared
   to both a dummy baseline and a strong text-only baseline on the same test set.
+
+
 
 ## 2. Repository Structure
 
@@ -40,8 +48,6 @@ chatbot logs using a multimodal transformer model (text + behavioral features).
 │       ├─ main_sub_rq1.py
 │       ├─ sub_rq2.py
 └─      └─ sub_rq3.py
-
-
 
 
 
