@@ -1,6 +1,6 @@
 # Multimodal NPS Prediction from Multilingual Chatbot Logs
 
-This repository contains the code used for my MSc thesis on predicting
+This repository contains the code used for predicting
 post-interaction Net Promoter Score (NPS) from multilingual customer-service
 chatbot logs using a multimodal transformer model (text + behavioral features).
 
